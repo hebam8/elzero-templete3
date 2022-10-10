@@ -1638,7 +1638,7 @@ gap: 120px;
     }
     footer .footer-content{
         display: grid;
-        grid-template-columns: repeat(auto-fill,minmax(400px,1fr));
+        grid-template-columns: repeat(auto-fill,minmax(350px,1fr));
      }
      footer .box p{
         margin: auto;
@@ -1660,6 +1660,9 @@ gap: 120px;
       nav .mega-menu .mega-text{
         font-size: .8rem;
       } 
+      .discount .right .form input, textarea{
+        width: 80%;
+      }
   
 
 
